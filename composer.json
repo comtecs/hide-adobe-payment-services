@@ -1,0 +1,28 @@
+{
+    "name": "comtecs/hide-adobe-payment-services",
+    "description": "Hide Adobe Payment Services from Payment Methods",
+    "require": {
+        "magento/framework": ">=103.0.7"
+    },    
+    "authors": [
+        {
+            "name": "James Harland",
+            "email": "james@comtecs.co.uk",
+            "homepage": "https://www.comtecs.co.uk",
+            "role": "Head of Technical"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Comtecs\\HideAdobePaymentServices\\": ""
+        }
+    }
+}
